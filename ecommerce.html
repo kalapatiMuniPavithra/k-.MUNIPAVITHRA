@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce Website</title>
+    <link rel="stylesheet" href="E:\muni\ecommerce.css">
+</head>
+<body bgcolor="#206e35">
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <h1>My eCommerce Store</h1>
+            <ul id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#" id="cart-link">Cart (0)</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#weather">Weather</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Home Section -->
+    <section id="home">
+      <h2>Welcome to Our Store</h2>
+      <p>Discover our collection of amazing products!</p>
+  </section>
+
+    <!-- Image Carousel -->
+    <section id="carousel">
+        <div class="carousel-images">
+            <img src="https://png.pngtree.com/thumb_back/fh260/background/20230714/pngtree-st-patrick-s-day-ecommerce-shop-and-deliver-via-mobile-app-image_3859384.jpg" alt="Product 1" class="carousel-item active">
+            <img src="https://cdn.shopify.com/app-store/listing_images/50bb43331da42651a316f787225367a6/desktop_screenshot/CPSA6MulqYADEAE=.png?height=720&width=1280" alt="Product 2" class="carousel-item">
+            <img src="https://simprosys.com/simprotips/wp-content/uploads/2021/12/strategy-to-implement-this-holiday-season-1-SHADOW.png" alt="Product 3" class="carousel-item">
+            <img src="https://qph.cf2.quoracdn.net/main-qimg-70b07227573b290a0797de83c06f9afe-pjlq" alt="Product 3" class="carousel-item">
+
+          </div>
+        <button id="prev">❮</button>
+        <button id="next">❯</button>
+    </section>
+    <section id="products">
+    <center><h2><font color="white">FEATURED PRODUCTS</font></h2></center>
+    <!-- Product List -->
+    <main class="product-container">
+        
+        
+        <div class="product">
+          <img src="E:\muni1\img\bag.png" alt="Product 1">
+          <h3>Product 1</h3>        
+          <p>5 Best Kitchen Utensil Sets of 2024, Tested and Reviewed</p>
+          <p><b>$1499.00</b></p>
+          <button class="add-to-cart" data-name="Product 1" data-price="499.00">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img src="E:\muni1\img\k2.jpg" alt="Product 2">
+          <h3>Product 2</h3>
+          <p>5 Best Kitchen Utensil Sets of 2024, Tested and Reviewed</p>
+          <p><b>$520.00</b></p>
+          <button class="add-to-cart" data-name="Product 2" data-price="520.00">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img src="E:\muni1\img\slp.jpg" alt="Product 3">
+          <h3>Product 3</h3>
+          <p>Romds Chappal for Women Stylish, Flat Fashion Sandals Ethnic Slippers for Girls Lifestyle Handmade</p>
+          <p><b>$499.00</b></p>
+          <button class="add-to-cart" data-name="Product 3" data-price="350.00">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img src="E:\muni1\img\cr.jpg" alt="Product 4">
+          <h3>Product 4</h3>
+          <p>meglow Skin Brightening Combo Pack for Women | Face Cream (50g) and Instant Glow Facewash (70g) - for All Skin Type  (2 Items in the set)</p>
+          <p><b>$299.00</b></p>
+          <button class="add-to-cart" data-name="Product 4" data-price="299.00">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img src="E:\muni1\img\img_2.png" alt="Product 5">
+          <h3>Product 5</h3>
+          <p><b>$999.00</b></p>
+          <p>Slim Fit Two-Piece Suit for Men- Elegant Formal Wear- Tailored Suit - The Rising Sun store, Vardo</p>
+          <button class="add-to-cart" data-name="Product 5" data-price="999.00">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img src="E:\muni1\img\img_3.png" alt="Product 6">
+          <h3>Product 6</h3>
+          <p><b>$1000.00</b></p>
+          <p>Beats Studio MH8K2ZM/B Wireless Over-Ear Headphones (Red)</p>
+          <button class="add-to-cart" data-name="Product 6" data-price="1000.00">Add to Cart</button>
+        </div>
+        
+        <div class="product">
+          <img src="E:\muni1\img\img_4.jpg" alt="Product 7">
+          <h3>Product 7</h3>
+          <p>Sandras Trend Imitation Rold Gold Plated Hand Made Necklace - CL:43 cm</p>
+          <p><b>$500.00</b></p>
+          <button class="add-to-cart" data-name="Product 7" data-price="500.00">Add to Cart</button>
+        </div>
+    
+        <div class="product">
+          <img src="E:\muni1\img\vol.jpg" alt="Product 8">
+          <h3>Product 8</h3>
+          <p>Volini Pain Relief Gel Tube Of 75 G</p>
+          <p><b>$240.00</b></p>
+          <button class="add-to-cart" data-name="Product 8" data-price="240.00">Add to Cart</button>
+        </div>
+      </section>
+        
+      </main>
+      <!-- Contact Form Section -->
+  <section class="contact-form" id="contact">
+    <h2>Contact us</h2>
+    <form id="contactForm">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Your full name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="Your email">
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required placeholder="Your message" rows="4"></textarea>
+
+      <button type="submit">Send Message</button>
+      </form>
+      
+  </section>
+     <!-- Cart Modal (for dynamically adding/removing items) -->
+  <div id="cart-modal" class="cart-modal">
+    <div class="cart-modal-content">
+      <h2>Your Cart</h2>
+      <ul id="cart-items"></ul>
+      <p id="total-price">Total: $0.00</p>
+      <button id="checkout-btn">Checkout</button>
+      <button id="close-cart-btn">Close</button>
+    </div>
+  </div>
+
+    <!-- API Data Display -->
+    <section id="weather">
+        <h2>Weather Update</h2>
+        <div id="weather-data">Loading...</div>
+    </section>
+    <div class="end">© Copyright 2024, All Rights Reserved</div>
+
+    <script src="E:\muni\ecommerce.js"></script>
+</body>
+</html>
